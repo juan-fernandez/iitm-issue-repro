@@ -5,6 +5,11 @@ cd iitm-issue-repro
 npm install
 ```
 
+### Versions
+
+* `Node.js@v20.17.0`
+* `npm@10.8.2`
+
 ## Without IITM
 Run script without iitm:
 ```
