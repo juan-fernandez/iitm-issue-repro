@@ -1,0 +1,26 @@
+{
+  "name": "iitm-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pass:no-spread": "node ./pass-no-spread.mjs",
+    "fail:spread-on-export": "node ./fail-spread-on-export.mjs",
+    "pass:spread-and-export": "node ./pass-spread-and-export.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "import-in-the-middle": "^1.11.2"
+  },
+  "volta": {
+    "node": "20.17.0"
+  },
+  "imports": {
+    "#dependency": {
+      "require": {
+        "node": "./dependency.js"
+      }
+    }
+  }
+}
