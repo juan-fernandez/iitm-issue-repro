@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pass:no-spread": "node ./pass-no-spread.mjs",
+    "pass:no-internal-package": "node ./pass-no-internal-package.mjs",
     "fail:spread-on-export": "node ./fail-spread-on-export.mjs",
     "pass:spread-and-export": "node ./pass-spread-and-export.mjs"
   },

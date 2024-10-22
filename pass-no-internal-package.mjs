@@ -1,4 +1,4 @@
-import pkg from './pass-no-spread/dependency.js'
+import pkg from './pass-no-internal-package/dependency.js'
 
 const dependency = pkg.dependency;
 
